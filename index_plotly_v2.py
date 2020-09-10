@@ -16,6 +16,7 @@ df = pd.read_excel('Index.xlsx',index_col=0)
 index_options=['--All Indices--','SPX','NDX','RTY']
 
 app = dash.Dash()
+server = app.server
 
 app.layout = html.Div([
     html.H2("Index Series"),
