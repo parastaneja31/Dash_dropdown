@@ -10,7 +10,7 @@ import dash_core_components as dcc
 import dash_html_components as html
 import plotly.graph_objs as go
 import pandas as pd
-import chart_studio
+
 
 df = pd.read_excel('Index.xlsx',index_col=0)
 index_options=['--All Indices--','SPX','NDX','RTY']
